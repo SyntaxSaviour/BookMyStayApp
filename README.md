@@ -1,75 +1,56 @@
 # Book My Stay App
 
 ## 📌 Objective
-To build a console-based **Hotel Booking Management System** using Core Java while demonstrating the practical use of **Object-Oriented Programming and Data Structures** in real-world scenarios.
+To build a console-based **Hotel Booking Management System** using Core Java while demonstrating practical use of **Object-Oriented Programming and Data Structures** in real-world scenarios.
 
-This project is developed incrementally through multiple **Use Cases (UC)**.  
-Each use case introduces a new concept that improves system design, scalability, and maintainability.
-
-The focus of the project is on **core application logic and system behavior**, rather than graphical interfaces.
+The project is developed incrementally using multiple **Use Cases (UC)**.  
+Each use case introduces a new concept that improves system design and scalability.
 
 ---
 
-# 🚀 Features / Use Cases Implemented
+## 🚀 Features / Use Cases Implemented
 
-## UC1 – Application Entry & Welcome Message
-Establishes the starting point of the Java application.
-
+### UC1 – Application Entry & Welcome Message
 Displays:
 - Application Name
-- Version Information
+- Version
 - Welcome Message
 
 Concepts used:
-- Java `Class`
-- `main()` method
+- Java `main()` method
 - `static` keyword
-- Console output (`System.out.println`)
-- Program execution flow
+- Console output
 
 ---
 
-## UC2 – Basic Room Types & Static Availability
-Introduces **Object-Oriented Domain Modeling** using inheritance and abstraction.
+### UC2 – Basic Room Types & Static Availability
+Introduces object-oriented design by modeling different room types.
 
-Room types implemented:
+Room types:
 - Single Room
 - Double Room
 - Suite Room
 
 Concepts used:
-- Abstract Class (`Room`)
+- Abstract class
 - Inheritance
 - Polymorphism
 - Encapsulation
 
-Room availability is stored using **simple variables** to highlight limitations of scattered state management.
-
-Example:
-Single Room → 10 available  
-Double Room → 6 available  
-Suite Room → 3 available
+Availability is stored using simple variables.
 
 ---
 
-## UC3 – Centralized Room Inventory Management
-Refactors the system to introduce **centralized inventory management**.
-
-Room availability is now managed using a **HashMap**, which acts as a single source of truth for the system.
+### UC3 – Centralized Room Inventory Management
+Replaces scattered availability variables with a centralized inventory system.
 
 Data Structure used:
 - `HashMap<String, Integer>`
 
 Concepts used:
 - Centralized state management
-- Encapsulation of inventory logic
-- O(1) lookup and update operations
-- Separation of domain model and system state
-
-Example inventory:
-Single Room → 10  
-Double Room → 6  
-Suite Room → 3  
+- Fast lookup and updates
+- Separation of inventory logic from room model
 
 ---
 
