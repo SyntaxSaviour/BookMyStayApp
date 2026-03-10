@@ -61,31 +61,5 @@ Concepts used:
 
 ---
 
-# 🌱 Git Workflow Followed
-For each Use Case:
-
-1. Created a new branch
-2. Implemented the feature
-3. Committed the changes
-4. Created a Pull Request
-5. Merged the branch into `main`
-
-This workflow reflects **real-world collaborative development practices**.
-
----
-
-# 📈 Learning Outcomes
-Through this project, the following concepts are demonstrated:
-
-- Java application lifecycle
-- Object-Oriented Programming
-- Abstraction and Inheritance
-- Encapsulation
-- Polymorphism
-- State management using HashMap
-- Scalable software design principles
-
----
-
 # 👩‍💻 Author
 **Farjan Alam**
